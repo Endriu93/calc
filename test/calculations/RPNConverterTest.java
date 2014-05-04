@@ -21,7 +21,7 @@ public class RPNConverterTest {
 
 	
 	private calc.src.calculations.RPNConverter example;
-	private String Expected; // Spodziewany wynik konwersji
+	private String Expected; // Spodziewany wynik konwersji nn
 	
 	
 	
