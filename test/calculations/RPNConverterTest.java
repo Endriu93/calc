@@ -1,4 +1,4 @@
-package tests;
+package calc.test.calculations;
 
 /**
  * @author Endriu
@@ -14,13 +14,13 @@ import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
 import org.junit.runners.Parameterized.Parameters;
 
-import calculations.RPNConverter;
+import calc.src.calculations.*;
 
 @RunWith(Parameterized.class) 
 public class RPNConverterTest {
 
 	
-	private RPNConverter example;
+	private calc.src.calculations.RPNConverter example;
 	private String Expected; // Spodziewany wynik konwersji
 	
 	

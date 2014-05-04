@@ -4,10 +4,11 @@
  * and open the template in the editor.
  */
 
-package kalkulator;
+package calc.test.kalkulator;
+
 
 import junit.framework.TestCase;
-
+import calc.src.kalkulator.*;
 /**
  *
  * @author Bartosz

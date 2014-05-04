@@ -1,4 +1,4 @@
-package tests;
+package calc.test.calculations;
 
 
 /**
@@ -20,8 +20,8 @@ import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
 import org.junit.runners.Parameterized.Parameters;
 
-import calculations.ExpressionCalculation;
-import calculations.RPNConverter;
+import calc.src.calculations.*;
+
 
 @SuppressWarnings("unused")
 

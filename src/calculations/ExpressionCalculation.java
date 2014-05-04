@@ -1,4 +1,4 @@
-package calculations;
+package calc.src.calculations;
 
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
@@ -8,8 +8,9 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Stack;
 
-import kalkulator.Function;
-import kalkulator.MathOp;
+import calc.src.kalkulator.Function;
+import calc.src.kalkulator.MathOp;
+
 
 public class ExpressionCalculation {
 	private final String rpnExpression;
@@ -17,7 +18,7 @@ public class ExpressionCalculation {
 	private double result;
 	private String expressionToDisplay;
 	private boolean expressionValidation;
-	ExpressionCalculation(String inputExpression) {
+	public ExpressionCalculation(String inputExpression) {
 		this.expressionValidation = true;
 		this.rpnConvertableExpression = this.convertInputStringToRPNConvertable(inputExpression);
 		RPNConverter converter = new RPNConverter(rpnConvertableExpression);
@@ -134,6 +135,9 @@ public class ExpressionCalculation {
 	}
 	public boolean isValid() {
 		return this.expressionValidation;
+	}
+	public String getRPNConvertableExp() {
+		return rpnConvertableExpression;
 	}
 	
 }

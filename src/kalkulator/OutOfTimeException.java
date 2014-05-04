@@ -1,4 +1,4 @@
-package kalkulator;
+package calc.src.kalkulator;
 
 /**
  *

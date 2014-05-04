@@ -2,13 +2,13 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package kalkulator;
+package calc.src.kalkulator;
 
 /**
  *
  * @author 2NowakK
  */
-class DividedByZeroException extends ArithmeticException { 
+public class DividedByZeroException extends ArithmeticException { 
 	DividedByZeroException(String msg) {
 		super(msg);
 	}

@@ -1,4 +1,5 @@
-package calculations;
+package calc.src.calculations;
+
 import java.util.*;
 
 public class RPNConverter {
@@ -7,7 +8,7 @@ public class RPNConverter {
 	static {
 		operationMap = ExpressionCalculation.getOpMap();
 	}
-	RPNConverter(String input) {
+	public RPNConverter(String input) {
 		this.input = input;
 	}
 

@@ -4,8 +4,9 @@
  * and open the template in the editor.
  */
 
-package kalkulator;
+package calc.test.kalkulator;
 
+import calc.src.kalkulator.*;
 import junit.framework.TestCase;
 
 /**

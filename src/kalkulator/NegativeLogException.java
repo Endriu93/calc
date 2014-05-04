@@ -1,6 +1,6 @@
-package kalkulator;
+package calc.src.kalkulator;
 
-class NegativeLogException extends ArithmeticException {
+public class NegativeLogException extends ArithmeticException {
 	NegativeLogException(String msg) {
 		super(msg);
 	}
