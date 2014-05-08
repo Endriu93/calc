@@ -24,7 +24,7 @@ public class ExpressionCalculationTest extends TestCase {
         Example1[1] = new ExpressionCalculation("6*9");
         Expected[1] = "6 * 9";
         results[1] = (double) (6 * 9);
-        // itd....
+        // itd....  
 
         // przykładowe błędy
         Example2[0] = new ExpressionCalculation("33xxx");
